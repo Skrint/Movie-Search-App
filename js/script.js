@@ -18,7 +18,7 @@ $form.addEventListener('submit', (e) => {
         res.Search.forEach((item) => {
           movies += `
           <li class='movie__item'>
-            <a class='movie__link' href='/film.html?s=${item.imdbID}&apikey=6503b203'>
+            <a class='movie__link' href='/Movie-Search-App/film.html?s=${item.imdbID}&apikey=6503b203'>
               <img class='movie__img' src='${item.Poster}' alt=''>
               <div class='movie__content'>
                 <h2 class='movie__title'>${item.Title}</h2>
